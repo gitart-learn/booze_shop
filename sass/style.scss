@@ -1,0 +1,54 @@
+
+// $main-color: #009688;
+
+:root {
+  --main-color: #009688;
+
+}
+
+// @include font('Roboto', normal, 400, '../fonts/Roboto-Regular.ttf');
+// @include font('Roboto', normal, 500, '../fonts/Roboto-Medium.ttf');
+// @include font('Roboto', normal, 700, '../fonts/Roboto-Bold.ttf');
+
+@font-face {
+    font-family:'Roboto';
+  font-weight: 400;
+  src: url('../fonts/Roboto-Regular.ttf') ;
+}
+@font-face {
+    font-family:'Roboto';
+  font-weight: 500;
+  src: url('../fonts/Roboto-Medium.ttf') ;
+}
+@font-face {
+    font-family:'Roboto';
+  font-weight: 700;
+  src: url('../fonts/Roboto-Bold.ttf') ;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  padding: 0 45px;
+  max-width: 1140px;
+  margin: auto;
+
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+
