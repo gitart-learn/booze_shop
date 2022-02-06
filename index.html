@@ -3,155 +3,153 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/src/img/cart.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header__wrapper">
-        <a href="#" class="header__logo logo">QShop</a>
-        <button class="header__basket btn">
-          <img src="./img/basket.svg" alt="">
+    <div class="header__wrapper container flex flex--jc-sb flex--ai-c">
+      <a href="/index.html" class="header__logo logo">QShop</a>
 
-        </button>
-      </div>
+      <a href="/src/pages/cart.html" class="header__cart btn btn--outlined">
+        <img class="btn__img--center" src="./src/img/cart.svg" alt="">
+        <span class="header__cart-counter">2</span>
+      </a>
+
     </div>
   </header>
   <section class="content">
     <div class="container">
-      <h1 class="content__title title">Popular</h1>
-      <div class="content__wrapper">
+      <h1 class="content__title title--level-1">Popular</h1>
+      <div class="content__wrapper flex flex--jc-sb ">
 
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/tile.png" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
               Drink 12</h2>
-            <div class="item__descr">
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
-              dried
-              apricots, prunes, raisins, cherries, shades of vanilla and caramel
+              dried apricots, prunes, raisins, cherries, shades of vanilla and caramel
+              <br />
+              Light smoky notes of oriental spices: vanilla, nutmeg and
+
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
         </div>
 
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile  ">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/jack-daniels.jpg" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
               Drink 12</h2>
-            <div class="item__descr">
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
               dried
               apricots, prunes, raisins, cherries, shades of vanilla and caramel
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
         </div>
-
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/jack-daniels.jpg" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
               Drink 12</h2>
-            <div class="item__descr">
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
               dried
               apricots, prunes, raisins, cherries, shades of vanilla and caramel
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
         </div>
-
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/black-jack.jpg" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
               Drink 12</h2>
-            <div class="item__descr">
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
               dried
               apricots, prunes, raisins, cherries, shades of vanilla and caramel
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
         </div>
-
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/jameson.jpg" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
-            </h2>
-            <div class="item__descr">
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
+              Drink 12</h2>
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
               dried
               apricots, prunes, raisins, cherries, shades of vanilla and caramel
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
         </div>
-
-        <div class="content__item item">
-          <div class="item__block">
-            <div class="item__img">
-              <img src="./img/content/item.png" alt="">
+        <div class="content__tile goods-tile">
+          <div class=" goods-tile__inner">
+            <div class=" goods-tile__img">
+              <img src="./src/img/content/tile.png" alt="">
             </div>
-            <h2 class="item__title">Oakheart Original Rum
+            <h2 class=" goods-tile__title fw-600 title--level-2">Oakheart Original Rum
               Drink 12</h2>
-            <div class="item__descr">
+            <div class=" goods-tile__descr descr">
               Light smoky notes of oriental spices: vanilla, nutmeg and cinnamon, as well as tones of dried fruits -
               dried
-              apricots, prunes,
+              apricots, prunes, raisins, cherries, shades of vanilla and caramel
             </div>
           </div>
-          <hr class="divider">
-          <div class="item__actions">
-            <button class="item__btn btn">
-              329₴ <img src="./img/content/buy.svg" alt="">
+
+          <div class=" goods-tile__footer">
+            <button class=" goods-tile__btn btn">
+              329₴ <img class="btn__img--right" src="./src/img/content/buy.svg" alt="">
             </button>
           </div>
 
@@ -163,17 +161,15 @@
     </div>
   </section>
   <footer class="footer">
-    <div class="container">
-      <div class="footer__wrapper">
-        <a href="#" class="footer__logo logo">QShop</a>
-        <button class="footer__contacts btn">
-          View Contacts
-        </button>
+    <div class="footer__wrapper container flex flex--jc-sb flex--ai-c">
+      <a href="/index.html" class="footer__logo logo btn ">QShop</a>
+      <button class="footer__contacts btn btn--outlined-white">
+        View Contacts
+      </button>
 
-      </div>
     </div>
   </footer>
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>

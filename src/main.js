@@ -1,8 +1,5 @@
 import './sass/style.scss';
-import './sass/blocks/header.scss';
-import './sass/blocks/footer.scss';
-import './sass/blocks/content.scss';
-import './sass/media.scss';
+
 
 
 // document.querySelector('#app').innerHTML = `
