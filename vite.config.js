@@ -1,17 +1,13 @@
 
-// const { resolve } = require('path')
-// const { defineConfig } = require('vite')
+import { defineConfig } from 'vite'
+const path = require('path')
 
-// module.exports = defineConfig({
-//   build: {
-//     rollupOptions: {
-//       input: {
-//         main: resolve(__dirname, 'index.html'),
-//         nested: resolve(__dirname, 'blocks/index.html')
-//       }
-//     }
-//   }
-// })
-// export default {
-//   // config options
-// }
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    },
+  },
+})
+

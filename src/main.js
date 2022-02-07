@@ -1,5 +1,8 @@
 import './sass/style.scss';
 
+import './js/modal'
+
+
 
 
 // document.querySelector('#app').innerHTML = `

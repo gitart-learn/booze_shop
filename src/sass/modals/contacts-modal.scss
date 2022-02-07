@@ -1,0 +1,11 @@
+.contacts-modal {
+  bottom: 100px;
+  right: 100px;
+  width: 400px;
+  height: 260px;
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

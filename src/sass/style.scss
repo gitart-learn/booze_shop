@@ -1,13 +1,12 @@
-
 @import "./bootstrap-reboot.min.css";
-@import './config.scss';
 
-@import './blocks/header.scss';
-@import './blocks/footer.scss';
-@import './blocks/content.scss';
-@import './blocks/cart.scss';
+@import "./base/config.scss";
 
-@import './media.scss';
+@import "./blocks/header.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/content.scss";
+@import "./blocks/cart.scss";
 
+@import "./modals/contacts-modal.scss";
 
-
+@import "./base/media.scss";
