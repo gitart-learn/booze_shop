@@ -1,12 +1,19 @@
 @import "./bootstrap-reboot.min.css";
 
+@import "./base/variables.scss";
+
 @import "./base/config.scss";
 
 @import "./blocks/header.scss";
 @import "./blocks/footer.scss";
 @import "./blocks/content.scss";
 @import "./blocks/cart.scss";
+@import "./blocks/cartModal.scss";
 
-@import "./modals/contacts-modal.scss";
+@import "./base/defaultModal.scss";
+
+// .else-modal {
+//   background: #000;
+// }
 
 @import "./base/media.scss";

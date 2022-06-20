@@ -1,0 +1,37 @@
+.cart-modal {
+  &__tile {
+    margin-bottom: 24px;
+  }
+  .cart-tile {
+    border: 1px solid #000;
+    border-radius: $border-radius;
+    padding: 20px;
+    &__title {
+      border-right: 1px solid #000;
+      min-width: 220px;
+      padding-right: 20px;
+      margin-right: 12px;
+      min-height: 100%;
+      display: block;
+    }
+    &__number {
+      border-right: 1px solid #000;
+      // min-width: 215px;
+
+      button {
+        margin-right: 12px;
+      }
+    }
+
+    &__delete {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    &__price {
+      border-left: 1px solid #000;
+      font-weight: 600;
+      padding-left: 30px;
+    }
+  }
+}
