@@ -1,16 +1,16 @@
-import '../sass/main.scss';
-import openModal from './defaultModal'
+import '../sass/main.scss'
+import openModal from '../defaultModal/defaultModal'
 
-
-const btnCart = document.querySelector('.header__cart');
+const btnCart = document.querySelector('.header__cart')
+const cartModal = document.querySelector('.cart-modal')
 btnCart.addEventListener('click', () => {
-  openModal('.cart-modal')
+  openModal(cartModal)
 })
 
-const btnContants = document.querySelector('.footer__contacts');
-btnContants.addEventListener('click', () => {
-  openModal('.contacts-modal')
+const btnContacts = document.querySelector('.footer__contacts')
+
+const contactsModal = document.querySelector('.contacts-modal')
+btnContacts.addEventListener('click', () => {
+  openModal(contactsModal)
 })
-
-
 

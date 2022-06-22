@@ -7,6 +7,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@gitart/eslint-config-basic": "^0.2.0",
+    "eslint": "^8.18.0",
     "sass": "^1.52.1",
     "vite": "^2.7.2"
   },

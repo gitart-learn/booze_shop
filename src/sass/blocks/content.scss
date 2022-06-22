@@ -23,7 +23,7 @@
   width: 31.5%;
   background-color: #fff;
   // padding: 25px 15px 10px ;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-color;
   border-radius: 12px;
 
   &__inner {
@@ -40,7 +40,7 @@
   }
 
   &__footer {
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid $border-color;
     text-align: right;
     padding: 10px 15px;
   }
